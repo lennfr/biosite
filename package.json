@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "npx snowpack dev"
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/Lenn106/bio-site#readme",
   "dependencies": {
     "canvas-confetti": "^1.9.3"
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.8"
   }
 }
